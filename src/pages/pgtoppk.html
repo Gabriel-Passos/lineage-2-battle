@@ -1,0 +1,138 @@
+<html>
+<meta lang="pt-BR" charset="utf-8"/>
+<body>
+
+	<head>
+		<script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../js/jspk.js"></script>
+		<script type="text/javascript" src="../js/OnPlayers.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css/principal.css">
+		<title>L2 BFT</title>
+	</head>
+	
+	<div id="img-bg"></div>
+
+	<img src="../img/separator.png" height="0.2%" width="100%" >
+
+	<div id="content-menu">
+		<nav class="menu">
+			<a href="../../index.html">home</a>
+			<a href="informacao.html">informacao</a>
+			<a href="cadastro.html">Cadastro</a>
+			<a href="downloads.html">Downloads</a>
+			<a href="#">contato</a>
+			<a href="#">doacao</a>
+			<a href="#">historia</a>
+			<a href="#">classes</a>
+		</nav>
+	</div>
+
+	<img src="../img/separator.png" height="0.2%" width="100%" >
+
+	<div id="principal">
+		<div class="top-margin" id="div-esquerda" class="esp-divs">
+			<div class="divs-esquerdas" class="login">
+				<h1 class="label-esquerda">Entrar</h1>
+				<img class="separator"src="../img/separator.png" alt="space" width="100%" height="3px">
+				<input class="padding" type="input" name="login" placeholder="Login">
+				<br />	
+				<input class="padding" id="senha" type="text" name="senha" placeholder="Senha">	
+				<button class="btn">Entrar</button>
+				<div class="marginTopES"></div>
+				<a href="#" class="a-pass">Esqueceu sua senha ?</a>
+				<div id="dv-cadastro">
+					<a href="#" class="a-cadastro">Cadastrar-se</a>
+				</div>
+			</div>
+		
+			<div class="divs-esquerdo">
+				<h1 class="label-esquerda">Estatísticas</h1>
+				<img class="separator" src="../img/separator.png" alt="space" width="100%" height="3px" >
+				<a href="pgtoppvp.html" class="btnpvp">TOP PVP</a>
+				<a href="pgtoppk.html" class="btnpvp">TOP PK</a>
+				<a href="BossStatus.html" id="btnBoss" class="btnpvp">BOSS STATUS</a>
+				<a href="TopClan.html" id="btnclan" class="btnpvp">TOP CLAN</a>
+				<a href="Siege.html"  class="btnpvp">CASTLE SIEGE</a>
+			</div>
+			<div class="div-oly">
+				<h1 class="label-esquerda">GRAND OLYMPIAD</h1>
+				<img class="separator" src="../img/separator.png" alt="space" width="100%" height="3px">
+				<button class="btnpvp">VER HEROS</button>
+				<a href="OlyRank.html" class="btnpvp">RANKING</a>
+			</div>
+			<div class="div-doacao">
+				<h1 class="label-esquerda">DOACAO</h1>
+				<img class="separator" src="../img/separator.png" alt="space" width="100%" height="3px">
+				<img src="../img/donateb_PT.jpg" alt="Doacao" width="100%" height="100px">
+			</div>
+		</div>
+
+		<div class="top-margin" id="meio" >
+			<div id="conteudo">
+				<h2 id="h1toppvp">Top Players</h2>
+				<img class="separator" src="../img/separator.png" alt="space" width="100%" height="2px">
+				<div id="tabela"></div>
+
+			</div>
+
+		</div>
+		
+		<div class="top-margin" id="div-direita">
+			<div class="div-status">
+				<h1 class="label-esquerda">STATUS</h1>
+				<img class="separator" src="../img/separator.png" alt="space" width="100%" height="2px">
+				<div id="status-server">
+					<label class="status-label">Auth</label><h3 class="resp-online">Off</h3>
+					<img class="separator" src="../img/separator.png" alt="space" width="100%" height="1px">
+					<label class="status-label">Game</label><h3 class="resp-online">Off</h3>
+					</div>
+						<img class="separator" src="../img/separator.png" alt="space" width="100%" height="0.2px">
+					<div id="players-on">
+						<label class="status-label">Players ON:</label><h3 class="resp-play">0</h3>
+					</div>
+				
+			</div>
+			<div id="div-galeria">
+				<h1 class="label-esquerda">Galeria</h1>
+				<img class="separator" src="../img/separator.png" alt="space" width="100%" height="2px">
+				<div id="mold">
+							<div class="icone"><a href="../img/galery/6fa4033a2746e9f70c5184ce11526f28.jpg" target="_blank" class="link-img">
+								<img class="mold-img" src="../img/galery/6fa4033a2746e9f70c5184ce11526f28.jpg"></a></div>
+							<div class="icone"><a href="../img/galery/8fb3eff08cb8a4ea3bb9b1a68fb0103b.jpg" target="_blank" class="link-img">
+								<img class="mold-img" src="../img/galery/8fb3eff08cb8a4ea3bb9b1a68fb0103b.jpg"></a></div>
+							<div class="icone"><a href="../img/galery/2569568eb61dbae4a1b56f683f54a432.jpg" target="_blank" class="link-img">
+								<img class="mold-img" src="../img/galery/9cc8c7e8948459752a483c5b7285f3c7.jpg"></a></div>
+							<div class="icone"><a href="../img/galery/2569568eb61dbae4a1b56f683f54a432.jpg" target="_blank" class="link-img">
+								<img class="mold-img" src="../img/galery/2569568eb61dbae4a1b56f683f54a432.jpg"></a></div>
+							<div class="icone"><a href="../img/galery/ae801d11781b888f70656df71fb44331.jpg" target="_blank" class="link-img">
+								<img class="mold-img" src="../img/galery/ae801d11781b888f70656df71fb44331.jpg"></a></div>
+							<div class="icone"><a href="../img/galery/b2b55b93a157535af486171533b57b59.jpg" target="_blank" class="link-img">
+								<img class="mold-img" src="../img/galery/b2b55b93a157535af486171533b57b59.jpg"></a></div>	
+					
+				</div>
+						
+			</div>
+					<button class="btnpvp">Ver Mais</button>
+			<div id="div-vote">
+				<h1 class="label-esquerda">Ajude votando</h1>
+				<img class="separator" src="../img/separator.png" alt="space" width="100%" height="2px">
+				<button class="btnpvp">Top 200</button>
+				<button class="btnpvp">l2jbrasil</button>
+			</div>
+				<img class="separator" src="../img/separator.png" alt="space" width="100%" height="2px">
+				<div id="suporte">
+					<h1 class="label-esquerda">Suporte</h1>
+					<img class="separator" src="../img/separator.png" alt="space" width="100%" height="2px">
+					<a href=""><img id="img-suporte" src="../img/supportb_PT.jpg"></a></div>
+				</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
