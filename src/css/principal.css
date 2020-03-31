@@ -298,6 +298,7 @@
 
 #info-prefixo p{
 	color: #000;
+	padding: 8px;
 }
 
 #form-cadastro label{
@@ -328,13 +329,13 @@
 	text-align: center;
 	font-size: 1.30em;
 	width: 90%;
-	height: 30px;
 	margin-left: 5%;
 	background-color: #fffca1;
 }
 
 #check-termos label{
 	color: #000;
+	padding: 5px;
 }
 
 .input-cadastro{
